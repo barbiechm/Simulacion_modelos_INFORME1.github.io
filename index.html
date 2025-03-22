@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Desarrollo de Software</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Modelos de Desarrollo de Software</h1>
+        <div class="indice">
+            <h2>Índice</h2>
+            <a href="#modelo-escalonado">Modelo Escalonado</a>
+            <a href="#modelo-v">Modelo en V</a>
+            <a href="#modelo-iterativo">Modelo Iterativo</a>
+            <a href="#modelo-versionado">Modelo Versionado</a>
+            <a href="#modelo-espiral">Modelo Espiral</a>
+            <a href="#modelo-continuo">Modelo Continuo</a>
+        </div>
+        
+        <div class="modelo" id="modelo-escalonado">
+
+            <h2>Modelo Escalonado</h2>
+            <p>Este modelo sigue una estructura jerárquica en la que cada fase del desarrollo debe completarse antes de pasar a la siguiente. Es ideal para proyectos bien definidos con requisitos estables.</p>
+            <p>Estructura en niveles: Se organiza en varias etapas interdependientes que avanzan progresivamente.<br><br>
+                Validación constante: Cada fase se revisa y valida antes de pasar a la siguiente.<br><br>
+                Desarrollo secuencial: No se salta ninguna etapa, lo que garantiza control y calidad.<br><br>
+                Ideal para proyectos grandes y complejos: Se usa en sistemas donde la estabilidad y la documentación son clave.<br><br>
+                Pruebas en cada etapa: Se incluyen pruebas en cada nivel, reduciendo errores al final del desarrollo.</p>
+            <div class="piramide">
+                
+                <img src="./svg/6.svg" alt="SVG 1" class="open-modal" 
+                data-info="Este es el nivel más alto de madurez organizacional. La empresa no solo tiene procesos optimizados y controlados, sino que también innova constantemente, adaptándose a cambios y mejorando continuamente sus operaciones. Es un nivel alcanzado por organizaciones altamente eficientes y competitivas.">
+
+                <img src="./svg/5.svg" alt="SVG 2" class="open-modal" 
+                data-info="Los procesos están bajo control y son altamente predecibles. Se implementan modelos de gestión basados en datos y análisis para optimizar el rendimiento. La organización es capaz de anticipar problemas y mejorar continuamente sus operaciones.">
+
+                <img src="./svg/4.svg" alt="SVG 3" class="open-modal" 
+                data-info="La organización cuenta con procesos bien documentados y estandarizados. Existen guías, políticas y metodologías que permiten ejecutar actividades de manera ordenada. Este nivel garantiza que las operaciones sean repetibles y predecibles.">
+
+                <img src="./svg/3.svg" alt="SVG 4" class="open-modal" 
+                data-info="En este nivel, se implementan prácticas básicas de gestión. Se empiezan a definir procedimientos y se tiene un mayor control sobre la ejecución de tareas, aunque todavía no hay un enfoque sólido en la mejora continua ni en la optimización.">
+
+                <img src="./svg/2.svg" alt="SVG 5" class="open-modal" 
+                data-info="Aquí, la organización ha comenzado a ejecutar procesos, pero estos no son consistentes ni estandarizados. Se llevan a cabo sin una planificación clara, y su éxito depende de la habilidad individual de las personas involucradas.">
+
+                <img src="./svg/1.svg" alt="SVG 6" class="open-modal" 
+                data-info="En este nivel, los procesos no están bien definidos ni documentados.Las actividades se realizan de manera inconsistente, dependiendo completamente de la improvisación y la experiencia individual de los empleados.No hay control ni seguimiento sobre los resultados.">
+            </div>
+            
+            <!-- MODAL -->
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p id="modal-text"></p>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        
+        <div class="modelo" id="modelo-v">
+            <h1>Modelo en V </h1>
+
+    <p>El Modelo en V es una variante del modelo en cascada que enfatiza la validación y verificación en cada fase del desarrollo de software.</p>
+
+    <h2>Fases del Modelo en V</h2>
+    <ul>
+        <li><strong>Estudio de Requisitos:</strong> Definición de los requerimientos del software.</li>
+        <li><strong>Diseño del Sistema:</strong> Arquitectura general del sistema.</li>
+        <li><strong>Diseño de Arquitectura:</strong> Estructura y componentes del software.</li>
+        <li><strong>Diseño Detallado:</strong> Especificaciones técnicas.</li>
+        <li><strong>Codificación:</strong> Desarrollo del software.</li>
+        <li><strong>Pruebas Unitarias:</strong> Verificación de módulos individuales.</li>
+        <li><strong>Pruebas de Integración:</strong> Verificación de interacción entre módulos.</li>
+        <li><strong>Pruebas de Sistema:</strong> Validación del sistema completo.</li>
+        <li><strong>Pruebas de Aceptación:</strong> Evaluación por parte del usuario.</li>
+    </ul>
+
+    <h2>Ventajas</h2>
+    <ul>
+        <li>Mayor calidad en el desarrollo.</li>
+        <li>Facilita la detección de errores en cada fase.</li>
+        <li>Ideal para proyectos con requisitos bien definidos.</li>
+    </ul>
+
+    <h2 >Desventajas</h2>
+    <ul class="desventajas">
+        <li>Rigidez en cambios durante el desarrollo.</li>
+        <li>No es adecuado para proyectos ágiles.</li>
+        <li>Mayor costo si se requieren modificaciones.</li>
+    </ul>
+
+
+            <img src="v.png" class="v-image">
+        </div>
+
+        
+        <div class="modelo" id="modelo-iterativo">
+            <h2>Modelo Iterativo</h2>
+            <p>En este modelo, el desarrollo se realiza en ciclos repetitivos donde se implementan mejoras progresivas en el producto. Permite flexibilidad y ajustes sobre la marcha.</p>
+            
+            <div class="iterativo-diagrama">
+        
+                <div class="iterativo-info">
+                    <h3>Características Principales</h3>
+                    <ul>
+                        <li><strong>Ciclos Repetitivos:</strong> El desarrollo se divide en iteraciones cortas.</li>
+                        <li><strong>Flexibilidad:</strong> Permite ajustes y cambios durante el desarrollo.</li>
+                        <li><strong>Entrega Incremental:</strong> Se entregan versiones funcionales del software en cada iteración.</li>
+                        <li><strong>Retroalimentación Continua:</strong> Se recibe feedback constante del cliente.</li>
+                    </ul>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Adaptable a cambios en los requisitos.</li>
+                        <li>Entrega temprana de funcionalidades.</li>
+                        <li>Reducción de riesgos al validar cada iteración.</li>
+                    </ul>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Requiere una planificación cuidadosa.</li>
+                        <li>Puede ser costoso si no se gestiona bien.</li>
+                    </ul>
+                </div>
+                <img src="iterativo.png" class="v-image">
+            </div>
+        </div>
+        
+        <div class="modelo" id="modelo-versionado">
+            <h2>Modelo Versionado</h2>
+            <p>Este modelo divide el desarrollo en versiones, lo que permite la entrega gradual de nuevas funcionalidades y mejoras continuas sin afectar la estabilidad del software.</p>
+            
+            <div class="versionado-diagrama">
+                <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Versión 1 -->
+                    <rect x="50" y="100" width="100" height="50" fill="#ffcc99" stroke="#333" stroke-width="2" />
+                    <text x="100" y="125" text-anchor="middle" fill="#333" font-size="14">Versión 1</text>
+                    
+                    <!-- Versión 2 -->
+                    <rect x="200" y="100" width="100" height="50" fill="#99ccff" stroke="#333" stroke-width="2" />
+                    <text x="250" y="125" text-anchor="middle" fill="#333" font-size="14">Versión 2</text>
+                    
+                    <!-- Flecha de conexión -->
+                    <path d="M150,125 L200,125 M190,120 L200,125 L190,130" stroke="#333" stroke-width="2" fill="none" />
+                </svg>
+        
+                <div class="versionado-info">
+                    <h3>Características Principales</h3>
+                    <ul>
+                        <li><strong>Versiones Estables:</strong> Cada versión es funcional y estable.</li>
+                        <li><strong>Entrega Gradual:</strong> Nuevas funcionalidades se añaden en versiones posteriores.</li>
+                        <li><strong>Mejora Continua:</strong> Se corrigen errores y se optimiza el software en cada versión.</li>
+                        <li><strong>Compatibilidad:</strong> Se asegura que las nuevas versiones sean compatibles con las anteriores.</li>
+                    </ul>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Entrega de valor incremental.</li>
+                        <li>Mayor estabilidad en cada versión.</li>
+                        <li>Fácil mantenimiento y actualización.</li>
+                    </ul>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Requiere una gestión cuidadosa de versiones.</li>
+                        <li>Puede generar dependencia entre versiones.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modelo" id="modelo-espiral">
+            <h2>Modelo Espiral</h2>
+            <p>Combina características del modelo iterativo y en cascada, con un fuerte enfoque en la gestión de riesgos. Se repite en ciclos llamados "vueltas de la espiral".</p>
+            
+            <div class="espiral-diagrama">
+                <img src="espiral2.png" class="v-image">
+        
+                <div class="espiral-info">
+                    <h3>Características Principales</h3>
+                    <ul>
+                        <li><strong>Ciclos de Desarrollo:</strong> Cada vuelta de la espiral representa una fase del proyecto.</li>
+                        <li><strong>Gestión de Riesgos:</strong> Se identifican y mitigan riesgos en cada ciclo.</li>
+                        <li><strong>Flexibilidad:</strong> Permite adaptar el proyecto según los resultados de cada ciclo.</li>
+                        <li><strong>Integración de Modelos:</strong> Combina lo mejor del modelo iterativo y en cascada.</li>
+                    </ul>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Enfoque en la gestión de riesgos.</li>
+                        <li>Adaptable a proyectos complejos.</li>
+                        <li>Permite retroalimentación constante.</li>
+                    </ul>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Puede ser costoso y lento.</li>
+                        <li>Requiere experiencia en gestión de riesgos.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modelo" id="modelo-continuo">
+            <h2>Modelo Continuo</h2>
+            <p>Optimiza el flujo de desarrollo mediante la integración y entrega continuas, lo que permite actualizaciones rápidas y frecuentes del software.</p>
+            
+            <div class="continuo-diagrama">
+                <img src="continuo.png" class="v-image">
+                <div class="continuo-info">
+                    <h3>Características Principales</h3>
+                    <ul>
+                        <li><strong>Integración Continua:</strong> El código se integra y prueba automáticamente.</li>
+                        <li><strong>Entrega Continua:</strong> Se liberan versiones del software de manera frecuente.</li>
+                        <li><strong>Automatización:</strong> Se automatizan tareas repetitivas como pruebas y despliegues.</li>
+                        <li><strong>Rapidez:</strong> Permite una respuesta rápida a cambios y errores.</li>
+                    </ul>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Reducción de errores.</li>
+                        <li>Entrega rápida de nuevas funcionalidades.</li>
+                        <li>Mayor eficiencia en el desarrollo.</li>
+                    </ul>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Requiere infraestructura robusta.</li>
+                        <li>Dependencia de herramientas de automatización.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
