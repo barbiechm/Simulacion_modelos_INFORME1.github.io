@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="82.494926mm"
+   height="26.023623mm"
+   viewBox="0 0 82.494926 26.023623"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="144.10667"
+       y="957.35199"
+       width="509.91592"
+       height="62.479816"
+       id="rect3-5-2-2-8" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-69.225775,-138.10064)">
+    <path
+       style="display:inline;fill:#ffb274;fill-opacity:1;stroke-width:0.190877;stroke-dasharray:none;paint-order:fill markers stroke"
+       d="m 69.225782,163.86402 7.965961,-25.76339 67.913167,0.12087 6.6158,25.90276 z"
+       id="path1-8-1-7-2" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.20590209,0,0,0.20590209,50.160427,-50.364099)"
+       id="text3-6-9-3-4"
+       style="font-size:46.6667px;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3-5-2-2-8);fill:#000000;fill-opacity:1;stroke-width:9.69449;stroke-dasharray:none;paint-order:fill markers stroke"><tspan
+         x="144.10742"
+         y="999.92701"
+         id="tspan1">PREDECIBLE</tspan></text>
+  </g>
+</svg>

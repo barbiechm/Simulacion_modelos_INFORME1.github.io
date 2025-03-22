@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="187.63039mm"
+   height="26.023623mm"
+   viewBox="0 0 187.63039 26.023623"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="144.10667"
+       y="957.35199"
+       width="509.91592"
+       height="62.479816"
+       id="rect3" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-11.710634,-248.26546)">
+    <path
+       style="display:inline;fill:#b3ffff;fill-opacity:1;stroke-width:0.287865;stroke-dasharray:none;paint-order:fill markers stroke"
+       d="m 11.710634,274.02884 18.118155,-25.76339 152.711551,0.12087 16.80068,25.90276 z"
+       id="path1" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,23.463522,-0.26663093)"
+       id="text3"
+       style="text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect3);fill:#fbffdb;fill-opacity:1;stroke-width:9.69449;stroke-dasharray:none;paint-order:fill markers stroke"><tspan
+         x="144.10742"
+         y="1006.0092"
+         id="tspan2"><tspan
+           style="font-size:53.3333px;fill:#000000"
+           id="tspan1">INCOMPLETO</tspan></tspan></text>
+  </g>
+</svg>
